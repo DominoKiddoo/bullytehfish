@@ -10,7 +10,8 @@ config_version=5
 
 [application]
 
-config/name="evilfish"
+config/name="bully the fish"
+run/main_scene="uid://dbmj221e5jjf5"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 

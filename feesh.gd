@@ -102,7 +102,7 @@ func _on_line_edit_text_submitted(new_text: String) -> void:
 func contains_nice_word(input_text: String) -> bool:
 	var lower_input = input_text.to_lower()
 	for word in nicewords:
-		if word.to_lower() in lower_input:
+		if " " + word.to_lower() + " " in lower_input:
 			return true
 	return false
 
